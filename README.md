@@ -26,8 +26,8 @@ Fall 2024 GitHub workshop series in the College of Earth, Ocean, and Atmospheric
 * **Push**: uploads local commits to the remote repository for a specific branch
 * **Pull**: download code from a remote repository and update your local repository
 * **Merge**: take changes from one branch and apply them to another. If you like the code in your new branch, you can merge them with your original code.
-* **Pull request**: you are requesting someone else 
-* **Review**:
+* **Pull request**: you are requesting someone else to merge your branch into their code. To do this, they will "pull" your changes, review them, and then decide to merge them. Sometimes also called a merge request.
+* **Review**: comment on proposed changes, make suggestions to improve the changes, and ultimately approve the changes if they are appropriate for the work.
 
 ## Some notes/FAQs
 * Upstream/origin/local/remote??? 
