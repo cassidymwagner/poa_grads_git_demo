@@ -14,6 +14,20 @@ def calc_mean(x):
     """
     return np.mean(x)
 
+def calc_median(x: np.ndarray) -> float:
+    """Calculate the median of an array of numbers.
+    Parameters
+    ----------
+    x : array-like
+        The array of numbers for which the median is calculated.
+    Returns
+    -------
+    median : float
+        The median of the input array of numbers.
+    
+    """
+    return np.median(x)
+
 def calc_std(x):
     return np.std(x)
 
