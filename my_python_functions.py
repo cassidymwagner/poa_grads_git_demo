@@ -1,4 +1,5 @@
 import numpy as np
+import scipy
 
 def calc_mean(x):
     """Calculate the mean of an array of numbers.
@@ -55,7 +56,7 @@ def print_my_name(name):
     print("Hello, my name is", name)
 
 def print_something_nice():
-    print("You are doing a great job!")
+    print("You are doing a REALLY great job!")
 
 
 def am_i_cool(name):
@@ -70,3 +71,7 @@ def am_i_cool(name):
 def print_age(birth_year):
     print(f'I am {2024 - birth_year} years old.')
 
+def print_favorite_animal(animal):
+    if not isinstance(animal, str):
+        raise ValueError("Input must be a string.")
+    print("My favorite animal is", animal)
