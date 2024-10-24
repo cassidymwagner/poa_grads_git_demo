@@ -103,7 +103,10 @@ def am_i_cool(name):
 def print_age(birth_year: float) -> None:
     print(f"I am {2024 - birth_year} years old.")
 
-def print_favorite_animal(animal):
+def print_happy_halloween():
+	print("Happy Halloween!!:)")
+
+ def print_favorite_animal(animal):
     if not isinstance(animal, str):
         raise ValueError("Input must be a string.")
     print("My favorite animal is", animal)
