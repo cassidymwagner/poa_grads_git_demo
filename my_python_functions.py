@@ -1,4 +1,5 @@
 import numpy as np
+import scipy
 
 
 def calc_mean(x: np.ndarray) -> float:
@@ -86,10 +87,23 @@ def print_my_name(name: str) -> None:
         raise ValueError("The input must be a string.")
     print("Hello, my name is", name)
 
-
 def print_something_nice() -> None:
-    print("You are doing a great job!")
+    print("You are doing a REALLY great job!")
+
+
+def am_i_cool(name):
+    cool_people = ['Alice', 'Bob', 'Charlie']
+    
+    if name in cool_people:
+        return f"{name}, you are definitely cool! 😎"
+    else:
+        return f"{name}, you're cool in your own special way! 🦄"
 
 
 def print_age(birth_year: float) -> None:
     print(f"I am {2024 - birth_year} years old.")
+
+def print_favorite_animal(animal):
+    if not isinstance(animal, str):
+        raise ValueError("Input must be a string.")
+    print("My favorite animal is", animal)
