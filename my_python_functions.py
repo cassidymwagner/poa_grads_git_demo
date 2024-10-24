@@ -59,3 +59,6 @@ def print_something_nice():
 
 def print_age(birth_year):
     print(f'I am {2024 - birth_year} years old.')
+
+def print_happy_halloween():
+	print("Happy Halloween!!:)")
