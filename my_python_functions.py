@@ -32,6 +32,18 @@ def calc_median(x: np.ndarray) -> float:
 
 
 def calc_std(x: np.ndarray) -> float:
+    """Calculate the standard deviation of an array of numbers
+
+    Parameters
+    ----------
+    x : np.ndarray
+        The array of numbers
+
+    Returns
+    -------
+    float
+        The standard deviation of the input array
+    """
     return np.std(x)
 
 
