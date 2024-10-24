@@ -52,6 +52,20 @@ def calc_add(x: float, y: float) -> float:
 
 
 def calc_sub(x: float, y: float) -> float:
+    """Calculate the difference between 2 numbers
+
+    Parameters
+    ----------
+    x : float
+        The first number
+    y : float
+        The second number
+
+    Returns
+    -------
+    float
+        The difference
+    """
     return x - y
 
 
