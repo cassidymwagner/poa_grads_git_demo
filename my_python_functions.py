@@ -59,3 +59,9 @@ def print_something_nice():
 
 def print_age(birth_year):
     print(f'I am {2024 - birth_year} years old.')
+
+
+def print_favorite_animal(animal):
+    if not isinstance(animal, str):
+        raise ValueError("Input must be a string.")
+    print("My favorite animal is", animal)
