@@ -1,4 +1,5 @@
 import numpy as np
+import scipy
 
 def calc_mean(x):
     """Calculate the mean of an array of numbers.
