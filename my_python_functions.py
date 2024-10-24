@@ -69,3 +69,8 @@ def am_i_cool(name):
 # Test it out
 print(am_i_cool('Alice'))
 print(am_i_cool('Endre'))
+
+
+def print_age(birth_year):
+    print(f'I am {2024 - birth_year} years old.')
+
