@@ -56,3 +56,16 @@ def print_my_name(name):
 
 def print_something_nice():
     print("You are doing a great job!")
+
+
+def am_i_cool(name):
+    cool_people = ['Alice', 'Bob', 'Charlie']
+    
+    if name in cool_people:
+        return f"{name}, you are definitely cool! 😎"
+    else:
+        return f"{name}, you're cool in your own special way! 🦄"
+
+# Test it out
+print(am_i_cool('Alice'))
+print(am_i_cool('Endre'))
