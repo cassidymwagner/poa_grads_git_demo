@@ -65,3 +65,6 @@ def print_favorite_animal(animal):
     if not isinstance(animal, str):
         raise ValueError("Input must be a string.")
     print("My favorite animal is", animal)
+
+def print(try_number):
+    print("This is try number:",str(try_number))
