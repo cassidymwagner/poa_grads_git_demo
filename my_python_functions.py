@@ -42,7 +42,7 @@ def calc_add(x: float, y: float) -> float:
     x : float
         The first number.
     y : float
-        The first number.
+        The second number.
     Returns
     -------
     sum : float
