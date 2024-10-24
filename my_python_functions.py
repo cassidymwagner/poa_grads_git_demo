@@ -1,4 +1,5 @@
 import numpy as np
+import scipy
 
 def calc_mean(x):
     """Calculate the mean of an array of numbers.
@@ -59,7 +60,6 @@ def print_something_nice():
 
 def print_age(birth_year):
     print(f'I am {2024 - birth_year} years old.')
-
 
 def print_favorite_animal(animal):
     if not isinstance(animal, str):
