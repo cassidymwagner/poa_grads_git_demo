@@ -55,15 +55,15 @@ def calc_sub(x, y):
     return x - y
 
 
-def print_my_name(name):
+def print_my_name(name: str) -> None:
     if not isinstance(name, str):
         raise ValueError("The input must be a string.")
     print("Hello, my name is", name)
 
 
-def print_something_nice():
+def print_something_nice() -> None:
     print("You are doing a great job!")
 
 
-def print_age(birth_year):
+def print_age(birth_year: float) -> None:
     print(f"I am {2024 - birth_year} years old.")
