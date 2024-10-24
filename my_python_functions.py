@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def calc_mean(x):
+def calc_mean(x: np.ndarray) -> float:
     """Calculate the mean of an array of numbers.
     Parameters
     ----------
@@ -31,11 +31,11 @@ def calc_median(x: np.ndarray) -> float:
     return np.median(x)
 
 
-def calc_std(x):
+def calc_std(x: np.ndarray) -> float:
     return np.std(x)
 
 
-def calc_add(x, y):
+def calc_add(x: float, y: float) -> float:
     """Calculate the sum of two numbers.
     Parameters
     ----------
@@ -51,7 +51,7 @@ def calc_add(x, y):
     return x + y
 
 
-def calc_sub(x, y):
+def calc_sub(x: float, y: float) -> float:
     return x - y
 
 
